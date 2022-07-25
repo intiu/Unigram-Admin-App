@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
 <category>
-<pattern>Unigram</pattern>
-<template>la ung dung cua cong ty chung toi</template>
+<pattern>unigram</pattern>
+<template>Là ứng dụng mạng xã hội của công ty chúng tôi do bạn Lê Thành Phương phát triển, ứng dụng có sẵn trên cả 3 nền tảng: android cho người dùng, desktop cho người quản lý, web để giới thiệu ứng dụng</template>
+</category>
+<category>
+<pattern>bạn là ai</pattern>
+<template>Tôi là phần mềm hỗ trợ giải quyết nhu cầu của bạn cho ứng dụng này</template>
 </category>
 </aiml>

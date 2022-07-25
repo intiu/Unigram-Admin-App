@@ -91,7 +91,7 @@ namespace Unigram_Admin_App
         private void gunaImageButton1_Click(object sender, EventArgs e)
         {
             var a1 = new ProcessStartInfo("msedge.exe");
-            a1.Arguments = "https://intiu.github.io";
+            a1.Arguments = "https://intiu.github.io/Unigram-Website/";
             Process.Start(a1);
         }
 

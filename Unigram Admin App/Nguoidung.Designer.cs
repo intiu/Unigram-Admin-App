@@ -126,24 +126,27 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(18, 16);
+            this.label1.Location = new System.Drawing.Point(21, 20);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 15);
+            this.label1.Size = new System.Drawing.Size(126, 18);
             this.label1.TabIndex = 108;
             this.label1.Text = "Mã người dùng";
             // 
             // txtMND
             // 
-            this.txtMND.Location = new System.Drawing.Point(154, 14);
+            this.txtMND.Location = new System.Drawing.Point(180, 17);
+            this.txtMND.Margin = new System.Windows.Forms.Padding(4);
             this.txtMND.Name = "txtMND";
-            this.txtMND.Size = new System.Drawing.Size(152, 21);
+            this.txtMND.Size = new System.Drawing.Size(177, 23);
             this.txtMND.TabIndex = 104;
             // 
             // txtHVT
             // 
-            this.txtHVT.Location = new System.Drawing.Point(154, 44);
+            this.txtHVT.Location = new System.Drawing.Point(180, 54);
+            this.txtHVT.Margin = new System.Windows.Forms.Padding(4);
             this.txtHVT.Name = "txtHVT";
-            this.txtHVT.Size = new System.Drawing.Size(152, 21);
+            this.txtHVT.Size = new System.Drawing.Size(177, 23);
             this.txtHVT.TabIndex = 103;
             // 
             // label2
@@ -151,18 +154,20 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(18, 47);
+            this.label2.Location = new System.Drawing.Point(21, 58);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 15);
+            this.label2.Size = new System.Drawing.Size(172, 18);
             this.label2.TabIndex = 107;
             this.label2.Text = "Họ và tên";
             // 
             // txtMK
             // 
-            this.txtMK.Location = new System.Drawing.Point(154, 133);
+            this.txtMK.Location = new System.Drawing.Point(180, 164);
+            this.txtMK.Margin = new System.Windows.Forms.Padding(4);
             this.txtMK.Name = "txtMK";
             this.txtMK.PasswordChar = '*';
-            this.txtMK.Size = new System.Drawing.Size(152, 21);
+            this.txtMK.Size = new System.Drawing.Size(177, 23);
             this.txtMK.TabIndex = 109;
             // 
             // label5
@@ -170,9 +175,10 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(18, 135);
+            this.label5.Location = new System.Drawing.Point(21, 166);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 15);
+            this.label5.Size = new System.Drawing.Size(113, 18);
             this.label5.TabIndex = 110;
             this.label5.Text = "Mật khẩu";
             // 
@@ -197,9 +203,10 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.txtMK);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Location = new System.Drawing.Point(320, 368);
+            this.panel1.Location = new System.Drawing.Point(373, 453);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(594, 287);
+            this.panel1.Size = new System.Drawing.Size(693, 353);
             this.panel1.TabIndex = 102;
             // 
             // label4
@@ -207,35 +214,39 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(18, 198);
+            this.label4.Location = new System.Drawing.Point(21, 244);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 15);
+            this.label4.Size = new System.Drawing.Size(113, 18);
             this.label4.TabIndex = 120;
             this.label4.Text = "Ảnh";
             // 
             // txtsearch
             // 
-            this.txtsearch.Location = new System.Drawing.Point(154, 198);
+            this.txtsearch.Location = new System.Drawing.Point(180, 244);
+            this.txtsearch.Margin = new System.Windows.Forms.Padding(4);
             this.txtsearch.Name = "txtsearch";
-            this.txtsearch.Size = new System.Drawing.Size(152, 21);
+            this.txtsearch.Size = new System.Drawing.Size(177, 23);
             this.txtsearch.TabIndex = 117;
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.webBrowser1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.webBrowser1.Location = new System.Drawing.Point(312, 3);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Location = new System.Drawing.Point(364, 4);
+            this.webBrowser1.Margin = new System.Windows.Forms.Padding(4);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(23, 25);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(279, 284);
+            this.webBrowser1.Size = new System.Drawing.Size(326, 350);
             this.webBrowser1.TabIndex = 119;
             this.webBrowser1.Url = new System.Uri("", System.UriKind.Relative);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(21, 230);
+            this.button1.Location = new System.Drawing.Point(24, 283);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(285, 50);
+            this.button1.Size = new System.Drawing.Size(332, 62);
             this.button1.TabIndex = 116;
             this.button1.Text = "Hiển thị hình ảnh người dùng\r\n(lưu ý: hãy nhập đường link trong bảng dữ liệu trên" +
     " rồi \r\nnhập nội dung vào trong thư mục ảnh)";
@@ -244,9 +255,10 @@
             // 
             // txtTT
             // 
-            this.txtTT.Location = new System.Drawing.Point(154, 163);
+            this.txtTT.Location = new System.Drawing.Point(180, 201);
+            this.txtTT.Margin = new System.Windows.Forms.Padding(4);
             this.txtTT.Name = "txtTT";
-            this.txtTT.Size = new System.Drawing.Size(152, 21);
+            this.txtTT.Size = new System.Drawing.Size(177, 23);
             this.txtTT.TabIndex = 117;
             // 
             // label3
@@ -254,17 +266,19 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(18, 165);
+            this.label3.Location = new System.Drawing.Point(21, 203);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 15);
+            this.label3.Size = new System.Drawing.Size(113, 18);
             this.label3.TabIndex = 118;
             this.label3.Text = "Thông tin";
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(154, 105);
+            this.txtemail.Location = new System.Drawing.Point(180, 129);
+            this.txtemail.Margin = new System.Windows.Forms.Padding(4);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(152, 21);
+            this.txtemail.Size = new System.Drawing.Size(177, 23);
             this.txtemail.TabIndex = 115;
             // 
             // label7
@@ -272,17 +286,19 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(18, 108);
+            this.label7.Location = new System.Drawing.Point(21, 133);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 15);
+            this.label7.Size = new System.Drawing.Size(98, 18);
             this.label7.TabIndex = 116;
             this.label7.Text = "Email";
             // 
             // txtTND
             // 
-            this.txtTND.Location = new System.Drawing.Point(154, 74);
+            this.txtTND.Location = new System.Drawing.Point(180, 91);
+            this.txtTND.Margin = new System.Windows.Forms.Padding(4);
             this.txtTND.Name = "txtTND";
-            this.txtTND.Size = new System.Drawing.Size(152, 21);
+            this.txtTND.Size = new System.Drawing.Size(177, 23);
             this.txtTND.TabIndex = 113;
             // 
             // label6
@@ -290,15 +306,17 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(18, 77);
+            this.label6.Location = new System.Drawing.Point(21, 95);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 15);
+            this.label6.Size = new System.Drawing.Size(126, 18);
             this.label6.TabIndex = 114;
             this.label6.Text = "Tên người dùng";
             // 
             // ribbonControl1
             // 
             this.ribbonControl1.ColorScheme = DevExpress.XtraBars.Ribbon.RibbonControlColorScheme.Orange;
+            this.ribbonControl1.EmptyAreaImageOptions.ImagePadding = new System.Windows.Forms.Padding(35, 37, 35, 37);
             this.ribbonControl1.ExpandCollapseItem.Id = 0;
             this.ribbonControl1.Items.AddRange(new DevExpress.XtraBars.BarItem[] {
             this.ribbonControl1.ExpandCollapseItem,
@@ -341,8 +359,10 @@
             this.barButtonItem32,
             this.barButtonItem33});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
+            this.ribbonControl1.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonControl1.MaxItemId = 58;
             this.ribbonControl1.Name = "ribbonControl1";
+            this.ribbonControl1.OptionsMenuMinWidth = 385;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1,
             this.ribbonPage2,
@@ -352,7 +372,7 @@
             this.repositoryItemComboBox1,
             this.repositoryItemTextEdit1});
             this.ribbonControl1.ShowSearchItem = true;
-            this.ribbonControl1.Size = new System.Drawing.Size(914, 150);
+            this.ribbonControl1.Size = new System.Drawing.Size(1066, 183);
             this.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Above;
             // 
             // barButtonItem2
@@ -790,10 +810,13 @@
             this.propertyGridControl1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.propertyGridControl1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.propertyGridControl1.Location = new System.Drawing.Point(0, 368);
+            this.propertyGridControl1.Location = new System.Drawing.Point(0, 453);
+            this.propertyGridControl1.Margin = new System.Windows.Forms.Padding(4);
             this.propertyGridControl1.Name = "propertyGridControl1";
+            this.propertyGridControl1.OptionsView.AllowReadOnlyRowAppearance = DevExpress.Utils.DefaultBoolean.True;
+            this.propertyGridControl1.OptionsView.MinRowAutoHeight = 12;
             this.propertyGridControl1.SelectedObject = this;
-            this.propertyGridControl1.Size = new System.Drawing.Size(321, 287);
+            this.propertyGridControl1.Size = new System.Drawing.Size(374, 353);
             this.propertyGridControl1.TabIndex = 105;
             // 
             // spreadsheetDockManager1
@@ -816,9 +839,10 @@
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(117, 385);
+            this.richTextBox1.Location = new System.Drawing.Point(136, 474);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(96, 78);
+            this.richTextBox1.Size = new System.Drawing.Size(111, 95);
             this.richTextBox1.TabIndex = 108;
             this.richTextBox1.Text = "";
             this.richTextBox1.Visible = false;
@@ -832,7 +856,7 @@
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 7.8F);
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -848,66 +872,76 @@
             this.Column13,
             this.Column14});
             this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 149);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 183);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 7.8F);
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(914, 216);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1066, 266);
             this.dataGridView1.TabIndex = 111;
             // 
             // Column8
             // 
             this.Column8.HeaderText = "Mã người dùng";
+            this.Column8.MinimumWidth = 6;
             this.Column8.Name = "Column8";
             // 
             // Column9
             // 
             this.Column9.HeaderText = "Họ và tên";
+            this.Column9.MinimumWidth = 6;
             this.Column9.Name = "Column9";
             // 
             // Column10
             // 
             this.Column10.HeaderText = "Tên người dùng";
+            this.Column10.MinimumWidth = 6;
             this.Column10.Name = "Column10";
             // 
             // Column11
             // 
             this.Column11.HeaderText = "Email";
+            this.Column11.MinimumWidth = 6;
             this.Column11.Name = "Column11";
             // 
             // Column12
             // 
             this.Column12.HeaderText = "Mật khẩu";
+            this.Column12.MinimumWidth = 6;
             this.Column12.Name = "Column12";
             // 
             // Column13
             // 
             this.Column13.HeaderText = "Thông tin";
+            this.Column13.MinimumWidth = 6;
             this.Column13.Name = "Column13";
             // 
             // Column14
             // 
             this.Column14.HeaderText = "Ảnh";
+            this.Column14.MinimumWidth = 6;
             this.Column14.Name = "Column14";
             // 
             // Nguoidung
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.propertyGridControl1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ribbonControl1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Nguoidung";
-            this.Size = new System.Drawing.Size(914, 655);
+            this.Size = new System.Drawing.Size(1066, 806);
             this.Load += new System.EventHandler(this.Nguoidung_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
